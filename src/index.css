@@ -2,6 +2,8 @@
 
 body {
   margin: 0;
+  padding-top: 15px;
+  padding-left: 30px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -12,4 +14,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-transform: uppercase;
+  color: rgb(73, 73, 73);
+}
+h2 {
+  color: rgb(109, 109, 109);
+  font-size: 30px;
 }
